@@ -1,0 +1,27 @@
+// Caso de borde de generación TM. No modifica el compilador.
+main {
+  int x, y, z, w;
+  x = 2;
+  if (x > 0) then
+    if (x > 5) then
+      y = 1;
+    else
+      y = 2;
+    end
+  else
+    y = 3;
+  end
+  z = 0;
+  if (false) then
+    z = 8;
+  end
+  w = 0;
+  if (x == 2) then
+    w = 4;
+  else
+    w = 5;
+  end
+  cout y;
+  cout z;
+  cout w;
+}

@@ -1,0 +1,18 @@
+// Caso de borde de generación TM. No modifica el compilador.
+main {
+  int a, b, c, d, e, f, g;
+  a = 2 + 3 * 4;
+  b = (2 + 3) * 4;
+  c = 8 / 2 + 15 * 4;
+  d = (8 / 2 + 15) * 4;
+  e = 20 - 4 - 3;
+  f = 2 * 3 ^ 2;
+  g = (2 * 3) ^ 2;
+  cout a;
+  cout b;
+  cout c;
+  cout d;
+  cout e;
+  cout f;
+  cout g;
+}

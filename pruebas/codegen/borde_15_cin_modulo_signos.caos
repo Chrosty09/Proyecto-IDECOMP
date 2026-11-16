@@ -1,0 +1,8 @@
+// Caso de borde de generación TM. No modifica el compilador.
+main {
+  int a, b;
+  cin a;
+  cin b;
+  cout a % b;
+  cout a / b;
+}

@@ -1,0 +1,10 @@
+// Caso de borde de generación TM. No modifica el compilador.
+main {
+  int a, c;
+  a = 0;
+  c = 1;
+  if (a == 0 && 1 / a == 1) then
+    c = 9;
+  end
+  cout c;
+}

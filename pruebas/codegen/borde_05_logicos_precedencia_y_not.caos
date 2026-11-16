@@ -1,0 +1,16 @@
+// Caso de borde de generación TM. No modifica el compilador.
+main {
+  bool a, b, c, d, e, g;
+  a = false && false || true;
+  b = true || false && false;
+  c = (true || false) && false;
+  d = !(true);
+  e = !(false);
+  g = !(false) && true;
+  cout a;
+  cout b;
+  cout c;
+  cout d;
+  cout e;
+  cout g;
+}

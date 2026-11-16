@@ -1,0 +1,15 @@
+// Caso de borde de generación TM. No modifica el compilador.
+main {
+  int a;
+  a = 5;
+  cout a < 5;
+  cout a <= 5;
+  cout a > 5;
+  cout a >= 5;
+  cout a == 5;
+  cout a != 5;
+  cout a < 6;
+  cout a > 4;
+  cout a != 4;
+  cout 3.0 == 3;
+}

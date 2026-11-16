@@ -1,0 +1,11 @@
+// Caso de borde de generación TM. No modifica el compilador.
+main {
+  int x;
+  x = 4;
+  if ((x > 0) && (x < 10)) then
+    x = x * (2 + 3);
+  else
+    x = 0;
+  end
+  cout x;
+}

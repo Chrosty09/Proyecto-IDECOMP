@@ -1,0 +1,13 @@
+// Caso de borde de generación TM. No modifica el compilador.
+main {
+  int a;
+  real r;
+  a = 10;
+  a++;
+  a++;
+  a--;
+  r = a;
+  r = r + 0.5;
+  cout a;
+  cout r;
+}

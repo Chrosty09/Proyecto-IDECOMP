@@ -1,0 +1,18 @@
+// Caso de borde de generación TM. No modifica el compilador.
+main {
+  int i;
+  float x, y;
+  bool t, f, u;
+  i = 7 / 2;
+  x = 7 / 2;
+  y = 7 / 2.0;
+  t = true;
+  f = false;
+  u = 1.5 < 2.0;
+  cout i;
+  cout x;
+  cout y;
+  cout t;
+  cout f;
+  cout u;
+}

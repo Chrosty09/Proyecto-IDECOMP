@@ -1,0 +1,9 @@
+// Caso de borde de generación TM. No modifica el compilador.
+main {
+  int n;
+  float z;
+  n = ((1 + 2) * (3 + 4)) - 8 / 3;
+  z = n + 1 / 2.0;
+  cout n;
+  cout z;
+}
