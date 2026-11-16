@@ -1,0 +1,16 @@
+// Caso de borde de generación TM. No modifica el compilador.
+main {
+  int a, b;
+  float f;
+  bool flag;
+  cin a;
+  cin b;
+  cin f;
+  cin flag;
+  cout a + b;
+  cout f;
+  cout flag;
+  cout "hola\tmundo";
+  cout "linea1\nlinea2";
+  cout a << " y " << f;
+}

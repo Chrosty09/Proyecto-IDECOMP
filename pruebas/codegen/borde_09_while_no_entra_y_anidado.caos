@@ -1,0 +1,25 @@
+// Caso de borde de generación TM. No modifica el compilador.
+main {
+  int x, s, i, j, k;
+  x = 5;
+  while (x < 0) {
+    x = x + 100;
+  }
+  s = 0;
+  i = 0;
+  while (i < 2) {
+    j = 0;
+    while (j < 3) {
+      s = s + 1;
+      j = j + 1;
+    }
+    i = i + 1;
+  }
+  k = 0;
+  while (k < 5 && k != 3) {
+    k = k + 1;
+  }
+  cout x;
+  cout s;
+  cout k;
+}

@@ -1,0 +1,6 @@
+// Sirve para comprobar que code.tm corresponde al fuente recién compilado.
+main {
+  int y;
+  y = 22;
+  cout y;
+}

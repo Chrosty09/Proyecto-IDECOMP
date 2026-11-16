@@ -1,0 +1,13 @@
+// Caso de borde de generación TM. No modifica el compilador.
+main {
+  int a;
+  bool f, g, h;
+  a = 0;
+  f = a != 0 && 1 / a > 0;
+  g = a == 0 || 1 / a == 1;
+  a = 4;
+  h = a != 0 && 8 / a == 2;
+  cout f;
+  cout g;
+  cout h;
+}

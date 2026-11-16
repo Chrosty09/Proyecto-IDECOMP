@@ -1,0 +1,15 @@
+// Caso de borde de generación TM. No modifica el compilador.
+main {
+  int x, s;
+  x = 1;
+  if x > 3 then
+    x = 9;
+  end
+  s = 0;
+  while x <= 3
+    s = s + x;
+    x = x + 1;
+  end
+  cout x;
+  cout s;
+}

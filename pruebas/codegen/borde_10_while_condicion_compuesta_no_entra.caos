@@ -1,0 +1,9 @@
+// Caso de borde de generación TM. No modifica el compilador.
+main {
+  int x;
+  x = 0;
+  while (x > 0 && x < 10) {
+    x = 99;
+  }
+  cout x;
+}
